@@ -44,8 +44,8 @@ describe('apiDoc full parse', function() {
     });
 
     var fixtureFiles = [
-        { key: 'data'   , filename: 'api_data.json' },
-        { key: 'project', filename: 'api_project.json' }
+//        { key: 'data'   , filename: 'api_data.json' },
+//        { key: 'project', filename: 'api_project.json' }
     ];
 
     var api = {};
