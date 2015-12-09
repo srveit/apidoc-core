@@ -44,8 +44,8 @@ describe('apiDoc full parse', function() {
     });
 
     var fixtureFiles = [
-//        { key: 'data'   , filename: 'api_data.json' },
-//        { key: 'project', filename: 'api_project.json' }
+        { key: 'data'   , filename: 'api_data.json' },
+        { key: 'project', filename: 'api_project.json' }
     ];
 
     var api = {};
@@ -137,7 +137,7 @@ describe('apiDoc full parse', function() {
 
             for (var lineNumber = 0; lineNumber < fixtureLines.length; lineNumber += 1) {
                 if (fixtureLines[lineNumber] !== createdLines[lineNumber])
-                    throw new Error(key + ' not equals to ' + name + ' in line ' + (lineNumber + 1) +
+                    throw new Error(key + ' not equal to ' + name + ' in line ' + (lineNumber + 1) +
                         '\nfixture: ' + fixtureLines[lineNumber] +
                         '\ncreated: ' + createdLines[lineNumber]
                     );
